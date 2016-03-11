@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 mode=($(printf "Normal\nLeft\nRight\nInverted\n" | \
     zenity --list --column=A --hide-header "--separator= "))
