@@ -15,7 +15,7 @@ then
 # Close the onscreen keyboard and re-enabled the physical one
 else
     xinput enable "AT Translated Set 2 keyboard"
-    killall onboard
+    killall -q onboard
 fi
 
 # Actually do the flip of the screen, with a lower case version of the
