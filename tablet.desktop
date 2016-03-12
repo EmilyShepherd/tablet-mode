@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tablet Settings
+Comment=
+Exec=/usr/bin/tablet
+Icon=display
+Terminal=false
+Type=Application
+StartupNotify=true
